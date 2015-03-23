@@ -2,6 +2,12 @@
 
 A writable stream wrapped elasticsearch index operation to bulk, tested on io.js v1.5.1
 
+# Install
+
+`npm install elasticsearch-stream-index`
+
+# Usage
+
 ```javascript
 var ElasticsearchStreamIndex = require('../index');
 
