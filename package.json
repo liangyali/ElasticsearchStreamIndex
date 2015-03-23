@@ -1,5 +1,5 @@
 {
-  "name": "ElasticsearchStreamIndex",
+  "name": "elasticsearch-stream-index",
   "version": "1.0.0",
   "description": "a writable stream wrapped elasticsearch index operation to bulk",
   "main": "index.js",
