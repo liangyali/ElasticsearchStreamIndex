@@ -14,7 +14,7 @@ create_stream.on('finish', function(){
   console.log('---finished---');
 });
 
-const idxName = 'cc_idx', typeName = 'cc_type';
+var idxName = 'cc_idx', typeName = 'cc_type';
 
 for(var i = 0; i < 10; i++){
   create_stream.write({
