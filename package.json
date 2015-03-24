@@ -1,6 +1,6 @@
 {
   "name": "elasticsearch-stream-index",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a writable stream wrapped elasticsearch index operation to bulk",
   "main": "index.js",
   "scripts": {
