@@ -1,6 +1,8 @@
-# ElasticsearchStreamIndex v1.0.0
+# ElasticsearchStreamIndex
 
-A writable stream wrapped elasticsearch index operation to bulk, tested on io.js v1.5.1
+A writable stream wrapped elasticsearch index operation to bulk
+
+![io.js supported](https://img.shields.io/badge/io.js-supported-green.svg?style=flat)
 
 # Install
 
