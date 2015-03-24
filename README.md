@@ -1,8 +1,6 @@
-# ElasticsearchStreamIndex
+# ElasticsearchStreamIndex ![io.js supported](https://img.shields.io/badge/io.js-supported-green.svg?style=flat) [![Build Status](https://travis-ci.org/topdmc/ElasticsearchStreamIndex.svg?branch=master)](https://travis-ci.org/topdmc/ElasticsearchStreamIndex)
 
 A writable stream wrapped elasticsearch index operation to bulk
-
-![io.js supported](https://img.shields.io/badge/io.js-supported-green.svg?style=flat)
 
 # Install
 

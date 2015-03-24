@@ -1,7 +1,10 @@
 language: node_js
 node_js:
-  - "0.12"
-  - "iojs"
-  - "iojs-v1.6.1"
+- '0.12'
+- iojs
+- iojs-v1.6.1
 services:
-  - elasticsearch
+- elasticsearch
+notifications:
+  slack:
+    secure: P3gC68iQ6XTkQ+IMaPjARO50pnqs2j1FIRjdvqTieEu8mb8Su6yzjdG9jBIXim4QWppI/U2I3dJO2jE8j9MvgjQjTpeFvgjlvUVpH4iraeO50NPSWoWOKZM49whB38z6WL3+qUD+sf0kCsiLR7hwKZYizKbXCisbxzsVaeeKYwo=
