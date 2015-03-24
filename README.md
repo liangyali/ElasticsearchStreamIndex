@@ -1,4 +1,4 @@
-# ElasticsearchStreamIndex ![io.js supported](https://img.shields.io/badge/io.js-supported-green.svg?style=flat) [![Build Status](https://travis-ci.org/topdmc/ElasticsearchStreamIndex.svg?branch=master)](https://travis-ci.org/topdmc/ElasticsearchStreamIndex)
+# ElasticsearchStreamIndex ![io.js supported](https://img.shields.io/badge/io.js-supported-green.svg?style=flat) [![Build Status](https://travis-ci.org/topdmc/ElasticsearchStreamIndex.svg?branch=master)](https://travis-ci.org/topdmc/ElasticsearchStreamIndex) [![npm version](https://badge.fury.io/js/elasticsearch-stream-index.svg)](http://badge.fury.io/js/elasticsearch-stream-index)
 
 A writable stream wrapped elasticsearch index operation to bulk
 
