@@ -4,7 +4,11 @@ var EventEmitter = require('events').EventEmitter;
 
 // npm modules
 var Writable = require('readable-stream').Writable;
-var debug = require('debug')('StreamingElasticsearch:BulkStream');
+
+var debug = function(){};
+try{
+  debug = require('debug')('StreamingElasticsearch:BulkStream');
+} catch (err){}
 
 function ElasticsearchStreamIndex(es_client, options){
   if(!(this instanceof ElasticsearchStreamIndex)){

@@ -1,3 +1,5 @@
+var assert = require('assert');
+
 var ElasticsearchStreamIndex = require('../index');
 
 var elasticsearch = require('elasticsearch');
@@ -11,8 +13,10 @@ var es = new elasticsearch.Client(opt);
 
 var create_stream = new ElasticsearchStreamIndex(es, { highWaterMark: 2 });
 create_stream.on('finish', function(){
-  console.log('---finished---');
+  assert.ok(true);
 });
+
+create_stream.on('error', function(){ assert.ok(false); });
 
 var idxName = 'cc_idx', typeName = 'cc_type';
 
