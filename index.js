@@ -57,6 +57,13 @@ ElasticsearchStreamIndex.prototype._bulk = function _bulk(callback){
       self.emit('error', err);
     }
     debug('_bulk resp', resp);
+    
+     // add fail handle
+    if (resp.errors === true) {
+      debug('_bulk error', resp.items);
+      self.emit('fail', resp.items);
+    }
+    
     self.bulkCount = 0;
     self.nextChunkIsParams = false;
     self.arr = [];
